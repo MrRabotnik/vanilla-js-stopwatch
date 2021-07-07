@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #e8e8e8;
+}
+
+#container{
+    width: 60%;
+    margin: auto;
+    padding: 5rem 0;
+    background: linear-gradient(to bottom right, rgb(255, 196, 0), rgb(231, 91, 26));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 1rem;
+}
+
+.heading{
+    text-transform: uppercase;
+    color: white;
+}
+
+.buttons_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#time{
+    color: white;
+    margin: 1rem 0;
+    font-size: 2rem;
+}
+
+.buttons{
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem white;
+    margin: 0 1rem;
+    border: 0;
+    outline: none;
+}
+
+.buttons:hover{
+    background-color: rgb(233, 226, 226);
+    border-radius: 0.5rem;
+    box-shadow: 0 0 1rem rgb(240, 236, 236);
+    transition: 0.5s;
+}
